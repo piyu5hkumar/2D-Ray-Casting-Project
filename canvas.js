@@ -57,6 +57,12 @@ class LightSource {
 
                 if (intersectionPoint) {
                     if (distance(rayStart, intersectionPoint) < distance(rayStart, rayEnd)) {
+                    	
+                    	//this will only be updated if intersection is smaller than the
+                    	//previous intersection for a particular ray
+                    	//if no intersection was found then intersectionPoint will be none
+                    	//so condition will be false in the outer if
+                        
                         rayEnd.x = intersectionPoint.x
                         rayEnd.y = intersectionPoint.y
                     }
@@ -77,8 +83,15 @@ function distance(p1, p2) {
 
 
 function intersection(A1, A2, B1, B2) {
+
+	//this will find the intersection point, lines will be parallel
+	//then denominator will be false
+
     var den = (A1.x - A2.x) * (B1.y - B2.y) - (A1.y - A2.y) * (B1.x - B2.x)
     if (den == 0) {
+
+    	//that means denominator is zero and the lines are colinear or parallel ||
+
         return false
     }
 

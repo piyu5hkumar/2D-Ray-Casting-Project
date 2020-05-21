@@ -1,4 +1,4 @@
-# Ray-Casting-Project
+# 2D Ray-Casting-Project
 ### A mini project implementing basic Ray Casting using JavaScript and HTML5 Canvas element
 
 <image src = "demo/gif_demo.gif" width = "500px">

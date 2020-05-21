@@ -7,7 +7,7 @@
 
 **_Formulas used_**
 1. Trigonometric formulas to calculate default value of the end points of the ray
-    * Pythagorean theorem
+    * Pythagorean theorem https://en.wikipedia.org/wiki/Pythagorean_theorem
       * used to calculate the maximum distance of the ray<br/>
         
         As we know the maximum length of any line segment in a rectangular window would be its diagonal, so we are assuming that initially all the ray's distance to be the length of the diagonal(to be on a safer side), here<br/>
@@ -26,7 +26,7 @@
         these are default calculated values
         
         
-1. Intersection of two line **segments**
+1. Intersection of two line **segments** https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection
 
     **line segments are _ray_ and the _wall_**
 

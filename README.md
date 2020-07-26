@@ -1,6 +1,6 @@
 # 2D Ray-Casting-Project
 ### A mini project implementing basic Ray Casting using JavaScript and HTML5 Canvas element
-
+the general problem of determining the first object intersected by a ray, as in collision detection.
 <image src = "demo/gif_demo.gif" width = "500px">
 
 
